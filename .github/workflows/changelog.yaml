@@ -9,7 +9,7 @@ on:
   pull_request:
     types: [opened, synchronize, reopened, labeled, unlabeled]
     branches:
-      - main
+      - "not-main"
 
 env:
   # See: https://github.com/actions/cache/issues/810#issuecomment-1222550359

@@ -1,14 +1,14 @@
 name: "Publish Operator OpAMP Bridge"
 
 on:
-  push:
-    paths:
-      - 'cmd/operator-opamp-bridge/**'
-      - '.github/workflows/publish-operator-opamp-bridge.yaml'
-    branches:
-      - main
-    tags:
-      - 'v*'
+  # push:
+  #   paths:
+  #     - 'cmd/operator-opamp-bridge/**'
+  #     - '.github/workflows/publish-operator-opamp-bridge.yaml'
+  #   branches:
+  #     - main
+  #   tags:
+  #     - 'v*'
   workflow_dispatch:
 
 env:

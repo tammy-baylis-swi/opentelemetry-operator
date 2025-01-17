@@ -1,14 +1,14 @@
 name: "Publish target allocator"
 
 on:
-  push:
-    paths:
-      - 'cmd/otel-allocator/**'
-      - '.github/workflows/publish-target-allocator.yaml'
-    branches:
-      - main
-    tags:
-      - 'v*'
+  # push:
+  #   paths:
+  #     - 'cmd/otel-allocator/**'
+  #     - '.github/workflows/publish-target-allocator.yaml'
+  #   branches:
+  #     - main
+  #   tags:
+  #     - 'v*'
   workflow_dispatch:
 
 env:

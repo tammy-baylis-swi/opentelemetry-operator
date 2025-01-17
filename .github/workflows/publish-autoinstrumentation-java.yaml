@@ -1,12 +1,12 @@
 name: "Publish Java Auto-Instrumentation"
 
 on:
-  push:
-    paths:
-      - 'autoinstrumentation/java/**'
-      - '.github/workflows/publish-autoinstrumentation-java.yaml'
-    branches:
-      - main
+  # push:
+  #   paths:
+  #     - 'autoinstrumentation/java/**'
+  #     - '.github/workflows/publish-autoinstrumentation-java.yaml'
+  #   branches:
+  #     - main
   pull_request:
     paths:
       - 'autoinstrumentation/java/**'

@@ -1,12 +1,12 @@
 name: "Publish Test E2E images"
 
 on:
-  push:
-    paths:
-      - 'tests/test-e2e-apps/**'
-      - '.github/workflows/publish-test-e2e-images.yaml'
-    branches:
-      - main
+  # push:
+  #   paths:
+  #     - 'tests/test-e2e-apps/**'
+  #     - '.github/workflows/publish-test-e2e-images.yaml'
+  #   branches:
+  #     - main
   pull_request:
     paths:
       - 'tests/test-e2e-apps/**'

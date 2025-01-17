@@ -1,12 +1,12 @@
 name: "Publish DotNet Auto-Instrumentation"
 
 on:
-  push:
-    paths:
-      - 'autoinstrumentation/dotnet/**'
-      - '.github/workflows/publish-autoinstrumentation-dotnet.yaml'
-    branches:
-      - main
+  # push:
+  #   paths:
+  #     - 'autoinstrumentation/dotnet/**'
+  #     - '.github/workflows/publish-autoinstrumentation-dotnet.yaml'
+  #   branches:
+  #     - main
   pull_request:
     paths:
       - 'autoinstrumentation/dotnet/**'

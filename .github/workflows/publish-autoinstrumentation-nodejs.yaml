@@ -1,12 +1,12 @@
 name: "Publish NodeJS Auto-Instrumentation"
 
 on:
-  push:
-    paths:
-      - 'autoinstrumentation/nodejs/**'
-      - '.github/workflows/publish-autoinstrumentation-nodejs.yaml'
-    branches:
-      - main
+  # push:
+  #   paths:
+  #     - 'autoinstrumentation/nodejs/**'
+  #     - '.github/workflows/publish-autoinstrumentation-nodejs.yaml'
+  #   branches:
+  #     - main
   pull_request:
     paths:
       - 'autoinstrumentation/nodejs/**'

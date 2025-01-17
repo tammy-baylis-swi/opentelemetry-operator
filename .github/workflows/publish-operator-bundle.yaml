@@ -1,14 +1,14 @@
 name: "Publish operator bundle"
 
 on:
-  push:
-    paths:
-      - '.github/workflows/publish-operator-bundle.yaml'
-      - 'bundle/**'
-    branches:
-      - main
-    tags:
-      - 'v*'
+  # push:
+  #   paths:
+  #     - '.github/workflows/publish-operator-bundle.yaml'
+  #     - 'bundle/**'
+  #   branches:
+  #     - main
+  #   tags:
+  #     - 'v*'
   workflow_dispatch:
 
 permissions:
