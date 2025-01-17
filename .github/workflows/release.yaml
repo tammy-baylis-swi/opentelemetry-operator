@@ -6,6 +6,7 @@ on:
       - 'main'
     paths:
       - 'versions.txt'
+  workflow_dispatch:
 
 jobs:
   get-versions:
